@@ -32,8 +32,7 @@ def register():
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for("index"))
-
+    return reds sbsbsbsbs
 
 @app.route('/login' , methods = ['GET', 'POST'])
 def login():
